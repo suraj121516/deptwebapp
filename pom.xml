@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.moi.demo</groupId>
   <artifactId>deptwebapp</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <packaging>pom</packaging>
   
   <properties>
@@ -19,7 +19,8 @@
 		<url>https://github.com:suraj121516/deptwebapp</url>
 		<connection>scm:git:git://github.com:suraj121516/deptwebapp.git</connection>
 		<developerConnection>scm:git:git@github.com:suraj121516/deptwebapp.git</developerConnection>
-		</scm>
+		  <tag>deptwebapp-0.0.1</tag>
+  </scm>
 
 <distributionManagement>
 	 <snapshotRepository>
