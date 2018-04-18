@@ -5,6 +5,11 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   
+  <scm>
+		<url>git@github.com:suraj121516/deptwebapp</url>
+		<connection>scm:git:git://github.com:suraj121516/deptwebapp.git</connection>
+		<developerConnection>scm:git:git@github.com:suraj121516/deptwebapp.git</developerConnection>
+	</scm>
   <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -22,4 +27,16 @@
   	<module>dept-api</module>
   	<module>dept-web</module>
   </modules>
+    <distributionManagement>
+	<repository>
+        <id>central</id>
+        <name>LAPTOP-GCSITJ9P-releases</name>
+        <url>http://localhost:8081/artifactory/libs-release-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>LAPTOP-GCSITJ9P-snapshots</name>
+        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
