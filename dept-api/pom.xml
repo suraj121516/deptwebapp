@@ -9,11 +9,7 @@
 	<artifactId>dept-api</artifactId>
 	
 	
-	  <scm>
-		<url>https://github.com:suraj121516/deptwebapp</url>
-		<connection>scm:git:git://github.com:suraj121516/deptwebapp.git</connection>
-		<developerConnection>scm:git:git@github.com:suraj121516/deptwebapp.git</developerConnection>
-		</scm>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -68,17 +64,4 @@
 		</plugins>
 	</build>
 	
-
-<distributionManagement>
-	 <snapshotRepository>
-        <id>snapshots</id>
-        <name>LAPTOP-GCSITJ9P-snapshots</name>
-        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
-    </snapshotRepository>
-    <repository>
-        <id>central</id>
-        <name>LAPTOP-GCSITJ9P-releases</name>
-        <url>http://localhost:8081/artifactory/libs-release-local</url>
-    </repository>
-</distributionManagement>
 </project>

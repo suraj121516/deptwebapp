@@ -8,11 +8,7 @@
 	</parent>
 	<artifactId>dept-web</artifactId>
 	
-	  <scm>
-		<url>https://github.com:suraj121516/deptwebapp</url>
-		<connection>scm:git:git://github.com:suraj121516/deptwebapp.git</connection>
-		<developerConnection>scm:git:git@github.com:suraj121516/deptwebapp.git</developerConnection>
-		</scm>
+
 		<build>
 	    <plugins>
       <plugin>
@@ -68,17 +64,5 @@
 			<version>7.0</version>
 		</dependency>
 	</dependencies>
-	
-<distributionManagement>
-	 <snapshotRepository>
-        <id>snapshots</id>
-        <name>LAPTOP-GCSITJ9P-snapshots</name>
-        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
-    </snapshotRepository>
-    <repository>
-        <id>central</id>
-        <name>LAPTOP-GCSITJ9P-releases</name>
-        <url>http://localhost:8081/artifactory/libs-release-local</url>
-    </repository>
-</distributionManagement>
+
 </project>
